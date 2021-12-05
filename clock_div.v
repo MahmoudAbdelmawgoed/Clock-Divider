@@ -21,10 +21,10 @@
 
 /*
 To make any clock divider just put your mod and the number of bits of the counter
-and modify the duty cycle by observing the MSB from the truth tab;e
+and modify the duty cycle by observing the MSB from the truth table
  * if you need to make a half clock cycle delay use Q_intermadiate3 if you don't need it remove it from the code
  * if you need to make a one clock cycle delay use Q_intermadiate2 if you don't need it remove it from the code
- * if you won't use the duty cycle cct your pitput will be Q_intermediate1
+ * if you won't use the duty cycle cct your output will be Q_intermediate1
 */
 
 module clock_div #(parameter modN = 5, parameter n = 3)(  // n for counter bits
